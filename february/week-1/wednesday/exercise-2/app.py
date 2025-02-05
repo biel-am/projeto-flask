@@ -1,3 +1,10 @@
+"""
+Exercise 2: Fruits names
+Difficulty: Basic
+Description: Create a code to return fruits names
+Expected Output: All fruits names
+"""
+
 from flask import Flask, make_response, jsonify
 from frutas import Frutas
 
