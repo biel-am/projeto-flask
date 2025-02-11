@@ -7,7 +7,7 @@ Expected Output: All films listed
 
 import psycopg2
 
-connection = psycopg2.connect(host='localhost', database='postgres', user='postgres', password='181044')
+connection = psycopg2.connect(host='localhost', database='postgres', user='postgres', password='')
 
 cursor = connection.cursor()
 
